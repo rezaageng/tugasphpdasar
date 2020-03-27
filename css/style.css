@@ -211,3 +211,9 @@ form {
     padding: 10px;
     border-radius: 5px;
 }
+
+.big {
+    font-size: 40px;
+    padding: 20px;
+    line-height: 40px;
+}
