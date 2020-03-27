@@ -44,7 +44,7 @@ canvas{
     display: inline-block;
 }
 
-.button li a, .button2 li a, .reslt li, .hasil {
+.button li a, .button2 li a, .reslt li, .hasil, button {
     display: inline-block;
     background-color: #cc0033;
     padding: 10px;
@@ -57,7 +57,7 @@ canvas{
     text-decoration: none;
 }
 
-.button a:hover, .button2 a:hover {
+.button a:hover, .button2 a:hover, button:hover {
     transform: translate(-5px,-3px);
     box-shadow: 5px 3px #8b4d9d;
 }
@@ -133,4 +133,47 @@ main .isi {
 
 .reslt li {
     text-transform: capitalize;
+}
+
+form {
+    display: inline-block;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form input {
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	border-radius: 3px;
+	padding: 7px;
+    outline: none;
+}
+
+.form button {
+    margin-top: 10px;
+    border: none;
+}
+
+.naruto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+
+.bunshin {
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    
+}
+.bunshin img {
+    width: 200px;
 }
