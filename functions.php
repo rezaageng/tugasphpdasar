@@ -37,3 +37,33 @@ if (isset($_GET['p'])) {
 if (isset($_GET["bunshin"])) {
     $bsh = $_GET["bunshin"];
 }
+
+//array
+
+$anime = [
+    [
+        "nama" => "Shingeki no Kyojin Season 3 Part 2",
+        "studio" => "Wit Studio",
+        "tayang" => "Apr 29, 2019 to Jul 1, 2019",
+        "eps" => "10",
+        "img" => "snk.jpg",
+        "gaman" => "titan.jpg"
+    ],
+    [
+        "nama" => "Ansatsu Kyoushitsu 2nd Season",
+        "studio" => "Lerche",
+        "tayang" => "Jan 8, 2016 to Jul 1, 2016",
+        "eps" => "25",
+        "img" => "ass.jpg",
+        "gaman" => "koro.png"
+    ],
+    [
+        "nama" => "Darling in the FranXX",
+        "studio" => "A-1 Pictures, Trigger, CloverWorks",
+        "tayang" => "Jan 13, 2018 to Jul 7, 2018",
+        "eps" => "24",
+        "img" => "dar.jpg",
+        "gaman" => "darling.png"
+    ]
+];
+
