@@ -16,8 +16,8 @@ require 'functions.php';
         <ul>
             <li><img src="img/home.png" alt="home" style="width: 23px; vertical-align: bottom;"><a href="index.php">Beranda</a></li>
             <li><img src="img/cabang.png" alt="cabang"><a href="percabangan.php">Percabangan</a></li>
-            <li  class="aktif"><img src="img/ulang.png" alt="ulang"><a href="pengulangan.php">Pengulangan</a></li>
-            <li><img src="img/array.png" alt="array"><a href="array.php">Array</a></li>
+            <li><img src="img/ulang.png" alt="ulang"><a href="pengulangan.php">Pengulangan</a></li>
+            <li class="aktif"><img src="img/array.png" alt="array"><a href="array.php">Array</a></li>
             <li><img src="img/func.png" alt="func" style="width: 22px; vertical-align: bottom;"><a href="function.php">Function</a></li>
             <li><img src="img/arit.png" alt="arit" style="width: 20px; vertical-align: bottom;"><a href="aritmatika.php">Oprasi Aritmatika dan logika</a></li>
         </ul>

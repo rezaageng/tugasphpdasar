@@ -18,8 +18,8 @@ require 'functions.php';
             <li><img src="img/cabang.png" alt="cabang"><a href="percabangan.php">Percabangan</a></li>
             <li><img src="img/ulang.png" alt="ulang"><a href="pengulangan.php">Pengulangan</a></li>
             <li><img src="img/array.png" alt="array"><a href="array.php">Array</a></li>
-            <li  class="aktif"><img src="img/func.png" alt="func" style="width: 22px; vertical-align: bottom;"><a href="function.php">Function</a></li>
-            <li><img src="img/arit.png" alt="arit" style="width: 20px; vertical-align: bottom;"><a href="aritmatika.php">Oprasi Aritmatika dan logika</a></li>
+            <li><img src="img/func.png" alt="func" style="width: 22px; vertical-align: bottom;"><a href="function.php">Function</a></li>
+            <li  class="aktif"><img src="img/arit.png" alt="arit" style="width: 20px; vertical-align: bottom;"><a href="aritmatika.php">Oprasi Aritmatika dan logika</a></li>
         </ul>
    </nav>
    <main>
@@ -27,15 +27,8 @@ require 'functions.php';
            <span>Function</span>
        </div>
        <div class="isi">
-       <p class="center">Masukan nama anda</p>
-            <div class="form">
-                <form action="function2.php" method="get">
-                    <div class="form-control">
-                            <input type="text" name="nama" id="nama" placeholder="Masukan Nama">
-                    </div>
-                    <button type="submit">Submit</button>
-                </form>
-           </div>
+            <p class="center">Luas persegi adalah <?=$luas?></p>
+            <p class="center"><?=$luas?> merupakan bilangan <?=$mod?></p>
        </div>
    </main>
 <script src="js/particles.js"></script>

@@ -90,3 +90,12 @@ function salam($nama) {
 	}
 	return "Selamat $waktu, $nama :)";
 }
+
+//operasi aritmatika dan logika
+if (isset($_GET["sisi"])) {
+    $s = $_GET["sisi"];
+
+    $luas = $s * $s;
+
+    $mod = ($luas % 2 == 0) ? "Genap" : "ganjil" ;
+}
