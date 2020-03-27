@@ -4,11 +4,6 @@ body {
     color: white;
 	line-height: 28px;
 	background-color: #272c38;
-	background-image: url(img/bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .container {
@@ -16,7 +11,8 @@ body {
 }
 
 .title img {
-    width: 1000px;  
+    width: 100%;
+    max-width: 1000px;  
     line-height: 0;
     font-size: 50px;
     margin: 0;
@@ -65,3 +61,28 @@ canvas{
     transform: translate(-5px,-3px);
     box-shadow: 5px 3px #8b4d9d;
 }
+
+nav {
+    width: 100%;
+    background-color: #cc0033;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav img {
+    width: 15px;
+    vertical-align: sub;
+}
+

@@ -18,11 +18,11 @@ require 'functions.php';
         </div>
         <div class="button">
             <ul>
-                <li><a href="">Percabangan</a></li>
-                <li><a href="">Pengulangan</a></li>
-                <li><a href="">Array</a></li>
-                <li><a href="">Function</a></li>
-                <li><a href="">Oprasi Aritmatika dan logika</a></li>
+                <li><a href="percabangan.php">Percabangan</a></li>
+                <li><a href="pengulangan.php">Pengulangan</a></li>
+                <li><a href="array.php">Array</a></li>
+                <li><a href="function.php">Function</a></li>
+                <li><a href="aritmatika.php">Oprasi Aritmatika dan logika</a></li>
             </ul>
         </div>
     </div>
