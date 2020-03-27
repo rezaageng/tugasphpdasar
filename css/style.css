@@ -40,11 +40,11 @@ canvas{
     z-index: 4;
 }
 
-.button li, .button2 li {
+.button li, .button2 li, .reslt .li {
     display: inline-block;
 }
 
-.button li a, .button2 li a {
+.button li a, .button2 li a, .reslt li, .hasil {
     display: inline-block;
     background-color: #cc0033;
     padding: 10px;
@@ -116,7 +116,7 @@ main .isi {
     text-align: center;
 }
 
-.button2 li a {
+.button2 li a, .reslt li {
     margin-top: 15px;
     border-radius: 15px;
     padding: 20px;
@@ -125,4 +125,12 @@ main .isi {
 .button2 img {
     width: 100%;
     max-width: 100px;
+}
+
+.button2 .vs {
+    vertical-align: top;
+}
+
+.reslt li {
+    text-transform: capitalize;
 }

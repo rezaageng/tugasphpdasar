@@ -1,3 +1,7 @@
+<?php
+require 'functions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,13 +27,14 @@
            <span>Percabangan</span>
        </div>
        <div class="isi">
-           <p class="center">Pilih salah satu</p>
-           <div class="button2">
+           <p class="center">Hasil</p>
+           <div class="button2 reslt">
                <ul>
-                   <li><a href="percabangan2.php?p=gunting"><img src="img/gunting.png" alt="gunting"><figcaption>Gunting</figcaption></a></li>
-                   <li><a href="percabangan2.php?p=batu" class="mid"><img src="img/batu.png" alt="batu"><figcaption>Batu</figcaption></a></li>
-                   <li><a href="percabangan2.php?p=kertas"><img src="img/kertas.png" alt="kertas"><figcaption>Kertas</figcaption></a></li>
+                   <li><img src="img/<?=$p?>.png" alt="<?=$p?>"><figcaption><?=$p?></figcaption></li>
+                   <li><img src="img/vs.png" alt="vs" class="top"> <figcaption>Melawan</figcaption> </li>
+                   <li><img src="img/<?=$com?>.png" alt="<?=$p?>"><figcaption><?=$com?></figcaption></li>
                </ul>
+               <p class="hasil"><?=$hasil?></p>
            </div>
        </div>
    </main>
