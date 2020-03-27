@@ -35,16 +35,16 @@ canvas{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: inline;
+    display: inline-block;
     text-align: center;
     z-index: 4;
 }
 
-.button li {
+.button li, .button2 li {
     display: inline-block;
 }
 
-.button li a {
+.button li a, .button2 li a {
     display: inline-block;
     background-color: #cc0033;
     padding: 10px;
@@ -57,7 +57,7 @@ canvas{
     text-decoration: none;
 }
 
-.button a:hover {
+.button a:hover, .button2 a:hover {
     transform: translate(-5px,-3px);
     box-shadow: 5px 3px #8b4d9d;
 }
@@ -73,6 +73,7 @@ nav {
 nav li {
     display: inline-block;
     margin-left: 15px;
+    opacity: .5;
 }
 
 nav a {
@@ -86,3 +87,42 @@ nav img {
     vertical-align: sub;
 }
 
+nav li:hover, .aktif {
+    opacity: 1;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #1f232d;
+}
+
+main .judul {
+    background-color: #cc0033;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+main .isi {
+    padding: 20px;
+}
+
+.isi .center {
+    text-align: center;
+}
+
+.button2 {
+    text-align: center;
+}
+
+.button2 li a {
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.button2 img {
+    width: 100%;
+    max-width: 100px;
+}
